@@ -24,3 +24,6 @@ g3 = grossissement(s3,s_p3)
 plt.xlabel("Distance image")
 plt.ylabel("Grossissement")
 plt.plot(s_p1,g1,'r--',s_p2,g2,'b-',s_p3,g3,'g^')
+plt.show()
+
+# Plots the distance of the virtual image created by an optical system against the magnifying factor of the optical system.

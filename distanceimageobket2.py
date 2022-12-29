@@ -18,4 +18,7 @@ def distance_objet(im,f,prec):
     z=-im
     return round((z*f)/(z-f),-int(round(log(prec))))
 
+distance_image(10, 5)
+
+# Plots the distance of virtual image and virtual object according to the optical system's parameters.
     

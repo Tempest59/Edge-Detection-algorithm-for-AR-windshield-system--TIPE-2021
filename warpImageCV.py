@@ -2,7 +2,7 @@ import cv2 as cv
 import numpy as np
 import pylab as plt
 
-img = cv.imread('bruno.png')
+img = cv.imread('')
 
 rows,cols,ch = img.shape
 pts1 = np.float32([[0,0],[cols,0],[0,rows],[cols,rows]])
@@ -32,4 +32,5 @@ def position(img):
     M = np.float32([[1,0,100],[0,1,50]])
     dst = cv.warpAffine(img,M,(cols,rows))
     return dst
-    
+
+# Warps the perspective of image to compensate for inclination of source screen.
