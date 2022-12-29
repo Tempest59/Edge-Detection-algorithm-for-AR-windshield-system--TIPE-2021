@@ -1,3 +1,5 @@
+Main files are TIPE-final.py and algoCV.py.
+
 This repository is a project I made with a classmate during preparatory classes. 
 
 It's the software part of a pedestrian detection AR system that superposes outline of the detected pedestrian with its real location to provide a kind of night vision to the driver.
